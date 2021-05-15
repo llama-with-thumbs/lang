@@ -1,0 +1,44 @@
+.introduction {
+  margin-left: 35px;
+  width: 1137px;
+  display: flex;
+  margin-top: 39px;
+
+  .intro-info {
+    margin-top: 9px;
+    width: 388px;
+    text-transform: uppercase;
+    margin-right: 81px;
+
+    .h1 {
+      //styleName: Main title;
+      margin-top: 0;
+      margin-bottom: 18px;
+      font-family: Open Sans;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 68px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .paragraph {
+      //styleName: Running text;
+      margin: 15px 0 32px 0;
+      text-transform: capitalize;
+      max-width: 349px;
+      font-family: Open Sans;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0em;
+    }
+    .start-button {
+      height: 40px;
+      width: 129px;
+      border-radius: 9px;
+      text-transform: capitalize;
+    }
+  }
+}
