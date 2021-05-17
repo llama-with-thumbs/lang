@@ -9,23 +9,23 @@ import './header.styles.scss';
 
 const Header = () => (
   <header className="header">
-    <Link className="logo-container" to="/">
+    <Link className="logo-container" to="/lang">
       <Logo className="logo" />
     </Link>
     <div className="pages">
-      <Link className="page" to="/">
+      <Link className="page" to="/lang">
         Main
       </Link>
-      <Link className="page" to="/">
+      <Link className="page" to="/lang/team">
         Team
       </Link>
-      <Link className="page" to="/">
+      <Link className="page" to="/lang/games">
         Games
       </Link>
-      <Link className="page" to="/">
+      <Link className="page" to="/lang/dictionary">
         Dictionary
       </Link>
-      <Link className="page" to="/">
+      <Link className="page" to="/lang/statistics">
         Statistics
       </Link>
     </div>

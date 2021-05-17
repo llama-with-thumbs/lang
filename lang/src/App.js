@@ -13,7 +13,7 @@ function App() {
     <div>
       <Header />
       <Switch>
-        <Route exact path='/' component={HomePage} />
+        <Route exact path='/lang' component={HomePage} />
       </Switch>
     </div>
   );

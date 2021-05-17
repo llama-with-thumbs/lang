@@ -11,7 +11,7 @@ import './introduction.styles.scss';
 const Introduction = () => (
   <section className="introduction">
     <div className="intro-info">
-      <h1 className="h1">learn new language in 30 days</h1>
+      <h1 className="h1">learn a new language in 30 days</h1>
       <p className="paragraph">
         With RS Lang you will be excited to keep learning new words. Just for
         you we keep track of your progress and visualize it in captivating
