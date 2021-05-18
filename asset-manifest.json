@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/lang/static/css/main.d6fbc82f.chunk.css",
-    "main.js": "/lang/static/js/main.a60cf35c.chunk.js",
-    "main.js.map": "/lang/static/js/main.a60cf35c.chunk.js.map",
+    "main.css": "/lang/static/css/main.ac21c92f.chunk.css",
+    "main.js": "/lang/static/js/main.d077feaf.chunk.js",
+    "main.js.map": "/lang/static/js/main.d077feaf.chunk.js.map",
     "runtime-main.js": "/lang/static/js/runtime-main.82f00e36.js",
     "runtime-main.js.map": "/lang/static/js/runtime-main.82f00e36.js.map",
-    "static/js/2.36418c8a.chunk.js": "/lang/static/js/2.36418c8a.chunk.js",
-    "static/js/2.36418c8a.chunk.js.map": "/lang/static/js/2.36418c8a.chunk.js.map",
+    "static/css/2.e2f725d3.chunk.css": "/lang/static/css/2.e2f725d3.chunk.css",
+    "static/js/2.30d2de2f.chunk.js": "/lang/static/js/2.30d2de2f.chunk.js",
+    "static/js/2.30d2de2f.chunk.js.map": "/lang/static/js/2.30d2de2f.chunk.js.map",
     "index.html": "/lang/index.html",
-    "static/css/main.d6fbc82f.chunk.css.map": "/lang/static/css/main.d6fbc82f.chunk.css.map",
-    "static/js/2.36418c8a.chunk.js.LICENSE.txt": "/lang/static/js/2.36418c8a.chunk.js.LICENSE.txt",
+    "static/css/2.e2f725d3.chunk.css.map": "/lang/static/css/2.e2f725d3.chunk.css.map",
+    "static/css/main.ac21c92f.chunk.css.map": "/lang/static/css/main.ac21c92f.chunk.css.map",
+    "static/js/2.30d2de2f.chunk.js.LICENSE.txt": "/lang/static/js/2.30d2de2f.chunk.js.LICENSE.txt",
     "static/media/backClouds.6d6d5709.png": "/lang/static/media/backClouds.6d6d5709.png",
     "static/media/frontFigures.97f34ba6.png": "/lang/static/media/frontFigures.97f34ba6.png",
+    "static/media/leftArrow.570d7994.svg": "/lang/static/media/leftArrow.570d7994.svg",
     "static/media/logo.de6d5250.svg": "/lang/static/media/logo.de6d5250.svg",
-    "static/media/midClouds.061ff9d5.png": "/lang/static/media/midClouds.061ff9d5.png"
+    "static/media/midClouds.061ff9d5.png": "/lang/static/media/midClouds.061ff9d5.png",
+    "static/media/rightArrow.5ad39a76.svg": "/lang/static/media/rightArrow.5ad39a76.svg",
+    "static/media/slick-theme.css": "/lang/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.82f00e36.js",
-    "static/js/2.36418c8a.chunk.js",
-    "static/css/main.d6fbc82f.chunk.css",
-    "static/js/main.a60cf35c.chunk.js"
+    "static/css/2.e2f725d3.chunk.css",
+    "static/js/2.30d2de2f.chunk.js",
+    "static/css/main.ac21c92f.chunk.css",
+    "static/js/main.d077feaf.chunk.js"
   ]
 }
