@@ -10,7 +10,7 @@ import './cloud-img.styles.scss';
 const CloudImg = () => (
   <ParallaxProvider>
     <div className="cloud-img-wrapper">
-      <Parallax className="back-div" y={[0, -99]} tagOuter="figure">
+      <Parallax className="back-div" y={[-50, -99]} tagOuter="figure">
         <img
           className="back-clouds"
           src={backClouds}
@@ -18,7 +18,7 @@ const CloudImg = () => (
           draggable="false"
         />
       </Parallax>
-      <Parallax className="mid-div" y={[0, -55]} tagOuter="figure">
+      <Parallax className="mid-div" y={[-30, -55]} tagOuter="figure">
         <img
           className="mid-clouds"
           src={midClouds}
@@ -26,7 +26,7 @@ const CloudImg = () => (
           draggable="false"
         />
       </Parallax>
-      <Parallax className="front-div" y={[0, -35]} tagOuter="figure">
+      <Parallax className="front-div" y={[-10, -35]} tagOuter="figure">
         <img
           className="front-cloud"
           src={frontFigures}

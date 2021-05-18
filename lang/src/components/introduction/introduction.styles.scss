@@ -1,15 +1,17 @@
 .introduction {
-  margin-left: 35px;
+  // margin-left: 35px;
+  max-width: 1280px;
   width: 1137px;
+  
   display: flex;
   margin-top: 39px;
 
+  // border: 1px solid red;
   .intro-info {
     margin-top: 9px;
     width: 388px;
     text-transform: uppercase;
     margin-right: 81px;
-
     .h1 {
       //styleName: Main title;
       margin-top: 0;
@@ -39,6 +41,14 @@
       width: 129px;
       border-radius: 9px;
       text-transform: capitalize;
+      * {
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+      }
     }
   }
 }

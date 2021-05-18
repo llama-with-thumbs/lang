@@ -1,6 +1,6 @@
 .header {
   // height: 70px;
-  width: 100%;
+  width: 1137px;
 
   margin-top: 30px;
   margin-left: 35px;
@@ -8,7 +8,7 @@
 
   height: 42px;
 
-  width: 1137px;
+  
   display: flex;
 
   justify-content: stretch;
@@ -42,13 +42,5 @@
     align-items: center;
     justify-content: flex-end;
     flex-grow: 1;
-    .login-button {
-      line-height: 20px;
-      font-weight: bold;
-      height: 28.14px;
-      width: 84px;
-      border-radius: 6.83px;
-      text-transform: capitalize;
-    }
   }
 }

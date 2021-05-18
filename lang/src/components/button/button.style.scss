@@ -1,0 +1,22 @@
+.login-button {
+    line-height: 20px;
+    font-weight: bold;
+    height: 28.14px;
+    width: 84px;
+    border-radius: 6.83px;
+    
+    &.dark {
+      background-color: black;
+      color: white;
+      text-transform: capitalize;
+    }
+    &.dark:hover {
+      color: black;
+    }
+    &.light {
+      background-color: white;
+      color: black;
+      text-transform: capitalize;
+    }
+  }
+  
