@@ -1,0 +1,21 @@
+.cloud-img-test {
+  // border: 1px solid red;
+  position: relative;
+  height: 381.2787170410156px;
+  width: 595px;
+  .back-div {
+    position: absolute;
+    top: 175px;
+    right: -4px;
+  }
+  .mid-div {
+    position: absolute;
+    top: 162px;
+    left: 35px;
+  }
+  .front-div {
+    position: absolute;
+    top: 170px;
+    left: 90px;
+  }
+}

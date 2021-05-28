@@ -6,6 +6,7 @@ import './styles/colors.css';
 
 import HomePage from './pages/homepage/homepage.component';
 import Header from './components/header/header.component';
+import Parallax from './pages/parallax/parallax.component';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path='/lang' component={HomePage} />
+        <Route exact path='/lang/parallax' component={Parallax} />
       </Switch>
     </div>
   );

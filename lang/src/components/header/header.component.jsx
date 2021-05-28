@@ -15,6 +15,9 @@ const Header = () => (
       <Logo className="logo" />
     </Link>
     <div className="pages">
+      <Link className="page" to="/lang/parallax">
+        Parallax
+      </Link>
       <Link className="page" to="/lang/">
         Main
       </Link>

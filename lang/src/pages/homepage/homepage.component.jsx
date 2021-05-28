@@ -7,6 +7,7 @@ import './homepage.styles.scss';
 import '../../styles/colors.css';
 
 const HomePage = () => (
+  
   <div className="homepage">
     <section className="introduction-wrapper">
       <Introduction />
