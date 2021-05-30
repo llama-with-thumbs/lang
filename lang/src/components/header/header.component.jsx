@@ -36,9 +36,6 @@ const Header = () => (
       </Link>
     </div>
     <div className="action-items">
-      <Button className="login-button dark" variant="contained">
-        Login
-      </Button>
       <LoginMenu />
     </div>
   </header>

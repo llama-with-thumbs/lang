@@ -3,11 +3,12 @@ import Backdrop from '@material-ui/core/Backdrop';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Button from '@material-ui/core/Button';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
+import SignIn from '../sing-in/SignIn.component';
 
 const useStyles = makeStyles(() =>
   createStyles({
     backdrop: {
-      zIndex:  1,
+      zIndex: 1,
       color: '#fff',
     },
   }),
@@ -25,8 +26,16 @@ const LoginMenu = () => {
 
   return (
     <div>
-      <Backdrop className={classes.backdrop} open={open} onClick={handleClose}>
-        <CircularProgress color="inherit" />
+      <Button
+        className="login-button dark"
+        variant="contained"
+        onClick={handleToggle}
+      >
+        Login
+      </Button>
+      <Backdrop className={classes.backdrop} open={open}>
+        {/* <CircularProgress color="inherit" /> */}
+        <SignIn />
       </Backdrop>
     </div>
   );
