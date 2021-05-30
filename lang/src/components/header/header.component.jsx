@@ -4,6 +4,7 @@ import React from 'react';
 
 import Button from '../button/button.component';
 import { Link } from 'react-router-dom';
+import LoginMenu from '../login-menu/login-menu.component';
 
 import { ReactComponent as Logo } from '../../assets/logo.svg';
 
@@ -38,6 +39,7 @@ const Header = () => (
       <Button className="login-button dark" variant="contained">
         Login
       </Button>
+      <LoginMenu />
     </div>
   </header>
 );
