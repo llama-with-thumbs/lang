@@ -14,7 +14,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Image from 'material-ui-image';
 
-import loginClouds from '../../assets/login-clouds.png';
+
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -43,8 +43,8 @@ export default function SignIn() {
     <Container component="main" maxWidth="xs">
       {/* <CssBaseline /> */}
       <div className={classes.paper}>
-        <img src={loginClouds} />
         
+
         <Typography component="h1" variant="h5">
           Sign in
         </Typography>

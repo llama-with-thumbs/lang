@@ -33,11 +33,12 @@ const LoginMenu = () => {
       >
         Login
       </Button>
-      <Backdrop className={classes.backdrop} open={open}>
+      <Backdrop className={classes.backdrop} open={open} onClick={handleClose}>
         {/* <CircularProgress color="inherit" /> */}
         <SignIn />
       </Backdrop>
     </div>
   );
 };
+
 export default LoginMenu;

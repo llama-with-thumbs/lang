@@ -5,6 +5,7 @@ import React from 'react';
 import Button from '../button/button.component';
 import { Link } from 'react-router-dom';
 import LoginMenu from '../login-menu/login-menu.component';
+import LoginDialog from '../login-dialog/login-dialog.component';
 
 import { ReactComponent as Logo } from '../../assets/logo.svg';
 
@@ -36,7 +37,8 @@ const Header = () => (
       </Link>
     </div>
     <div className="action-items">
-      <LoginMenu />
+      {/* <LoginMenu /> */}
+      <LoginDialog />
     </div>
   </header>
 );
