@@ -29,7 +29,7 @@ const DialogTitle = withStyles(styles)((props) => {
   const { children, classes, onClose, ...other } = props;
   return (
     <MuiDialogTitle disableTypography className={classes.root} {...other}>
-      <Typography variant="h6">{children}</Typography>
+      <Typography variant="h6">{children}</Typography>``
       {/* <img className={classes.titleImage} src={loginClouds} /> */}
       {onClose ? (
         <IconButton

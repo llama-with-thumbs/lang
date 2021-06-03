@@ -15,7 +15,6 @@ import Container from '@material-ui/core/Container';
 import Image from 'material-ui-image';
 
 
-
 const useStyles = makeStyles((theme) => ({
   paper: {
     marginTop: theme.spacing(8),
@@ -35,6 +34,9 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(3, 0, 2),
   },
 }));
+  function handleSubmit(event) {
+    event.preventDefault();
+  }
 
 export default function SignIn() {
   const classes = useStyles();
@@ -48,7 +50,7 @@ export default function SignIn() {
         <Typography component="h1" variant="h5">
           Sign in
         </Typography>
-        <form className={classes.form} noValidate>
+        <form className={classes.form} noValidate onSubmit={handleSubmit}>
           <TextField
             variant="outlined"
             margin="normal"
